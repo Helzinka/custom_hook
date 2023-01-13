@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.App input {
+  margin: 10px;
+  border: 2px solid cornflowerblue;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.validated-input:focus {
+  border-color: unset;
+}
+
+.validated-input:valid {
+  border-color: green;
+}
+
+.validated-input:invalid {
+  border-color: red;
+}
